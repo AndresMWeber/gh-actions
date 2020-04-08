@@ -1,0 +1,9 @@
+FROM mottosso/maya:2017
+
+RUN mkdir /repo
+
+WORKDIR /repo
+
+COPY ./ /repo
+
+ENTRYPOINT ["/repo/entrypoint.sh"]
