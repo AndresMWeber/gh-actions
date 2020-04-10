@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 echo ">>>>> MAYAPY"
-mayapy -m unittest discover -s /repo -p "test_*.py" -v
+mayapy -m unittest discover -s tests -p "test_*.py" -v

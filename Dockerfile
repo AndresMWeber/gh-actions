@@ -1,9 +1,7 @@
 FROM mottosso/maya:2018
 
-RUN mkdir /repo
+WORKDIR /root/workdir
 
-WORKDIR /repo
+COPY ./ /root/workdir
 
-COPY ./ /repo
-
-ENTRYPOINT ["/repo/entrypoint.sh"]
+ENTRYPOINT ["./entrypoint.sh"]
