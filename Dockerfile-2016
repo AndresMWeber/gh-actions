@@ -1,4 +1,4 @@
-FROM mottosso/maya:2018
+FROM mottosso/maya:2016sp1
 
 RUN mkdir /repo
 

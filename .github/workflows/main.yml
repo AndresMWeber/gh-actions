@@ -9,3 +9,25 @@ jobs:
         uses: actions/checkout@v2
       - name: Run tests on Maya
         uses: ./
+
+  maya_2017_tests:
+    runs-on: ubuntu-latest
+    name: Runs Maya 2017
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build Container
+        run: /usr/bin/docker build -t test:2016 -f "Dockerfile-2017" .
+      - name: Run Container
+        run: /usr/bin/docker run --name Maya2017 test:2016
+
+  maya_2016_tests:
+    runs-on: ubuntu-latest
+    name: Runs Maya 2016
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build Container
+        run: /usr/bin/docker build -t test:2016 -f "Dockerfile-2016" .
+      - name: Run Container
+        run: /usr/bin/docker run --name Maya2016 test:2016
