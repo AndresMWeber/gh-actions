@@ -22,7 +22,7 @@ jobs:
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        uses: mottosso/maya:2018
-        run: ./entrypoint.sh
+      - uses: mottosso/maya:2018
+        with:
+          name: Run a multi-line script
+          run: ./entrypoint.sh
