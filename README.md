@@ -41,14 +41,14 @@
 ```
   maya_<version>_tests:
     runs-on: ubuntu-latest
-    name: Runs Maya <version>
+    name: Runs Maya 2017
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Build Container
-        run: /usr/bin/docker build -t test:<version> -f "Dockerfile-<version>" .
+        run: /usr/bin/docker build -t maya -f "Dockerfile-<version>" .
       - name: Run Container
-        run: /usr/bin/docker run --name Maya<version> test:<version>
+        run: /usr/bin/docker run -v "$(pwd):/root/workdir" maya
 ```
 
 # ⛏️ Built Using
