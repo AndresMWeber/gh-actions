@@ -1,15 +1,15 @@
 <p align="center">
     <a href="https://github.com/actions" rel="noopener">
-        <img width=50px height=50px src="https://avatars1.githubusercontent.com/u/44036562?s=280&v=4" alt="GitHub Actions Logo">
+        <img width=50px height=50px src="img/ghactions.png" alt="GitHub Actions Logo">
     </a>
     <a href="https://www.autodesk.com/products/maya" rel="noopener">
-        <img width=50px height=50px src="https://damassets.autodesk.net/content/dam/autodesk/www/solutions/badge/maya-2017-badge-75x75.png" alt="Maya 2020 Logo">
+        <img width=50px height=50px src="img/maya.png" alt="Maya 2020 Logo">
     </a>
     <a href="https://www.docker.com/" rel="noopener">
-        <img height=50px src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Moby-logo.png?itok=sYH_JEaJ" alt="Docker Moby Logo">
+        <img height=50px src="img/docker.png" alt="Docker Moby Logo">
     </a>
   <h2 align="center">Maya Docker Testing</h5>
-  <h5 align="center">How to run a python test suite using CI in Maya</h5>
+  <h5 align="center">How to run a python test suite using the GitHub Actions CI in a Maya Docker Container</h5>
   <div align="center">
       <img alt="Github CI" href="https://github.com/AndresMWeber/gh-actions/actions" src="https://github.com/AndresMWeber/gh-actions/workflows/CI/badge.svg" />
       <img alt="Github Latest Release" href="https://github.com/AndresMWeber/gh-actions/releases" src="https://flat.badgen.net/github/release/andresmweber/gh-actions" />
@@ -23,8 +23,8 @@
 # ⚙️ Configuration
 
 1.  In order to run different versions of maya, you need to check if that version is available in Marcus Ottosson's Maya docker image: https://hub.docker.com/r/mottosso/maya
-2.  Copy/paste another Dockerfile-<mayaversion>, fix the FROM maya version to your desired image version.
-3.  Modify main.yml and add another job (change all instances of <version>):
+2.  Copy/paste another Dockerfile-`<mayaversion>`, fix the FROM maya version to your desired image version.
+3.  Modify main.yml and add another job (change all instances of `<version>`):
 
 ```
   maya_<version>_tests:
