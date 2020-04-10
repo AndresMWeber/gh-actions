@@ -11,12 +11,24 @@
   <h2 align="center">Maya Docker Testing</h5>
   <h5 align="center">How to run a python test suite using the GitHub Actions CI in a Maya Docker Container</h5>
   <div align="center">
-      <img alt="Github CI" href="https://github.com/AndresMWeber/gh-actions/actions" src="https://github.com/AndresMWeber/gh-actions/workflows/CI/badge.svg" />
-      <img alt="Github Latest Release" href="https://github.com/AndresMWeber/gh-actions/releases" src="https://flat.badgen.net/github/release/andresmweber/gh-actions" />
-      <img alt="Github Last Commit" href="https://github.com/AndresMWeber/gh-actions/commits/master" src="https://flat.badgen.net/github/last-commit/andresmweber/gh-actions" />
-      <img alt="Github Issues" href="https://github.com/andresmweber/gh-actions/issues" src="https://flat.badgen.net/github/open-issues/andresmweber/gh-actions" />
-      <img alt="Github License" href="https://github.com/AndresMWeber/gh-actions/blob/master/LICENSE.md" src="https://flat.badgen.net/github/license/andresmweber/gh-actions" />
-      <img alt="PRs Welcome" href="http://makeapullrequest.com"  src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+      <a href="https://github.com/AndresMWeber/gh-actions/actions" >
+          <img alt="Github CI" src="https://github.com/AndresMWeber/gh-actions/workflows/CI/badge.svg" />
+    </a>
+    <a href="https://github.com/AndresMWeber/gh-actions/releases">
+      <img alt="Github Latest Release" src="https://flat.badgen.net/github/release/andresmweber/gh-actions" />
+    </a>
+    <a href="https://github.com/AndresMWeber/gh-actions/commits/master">
+      <img alt="Github Last Commit" src="https://flat.badgen.net/github/last-commit/andresmweber/gh-actions" />
+    </a>
+    <a href="https://github.com/andresmweber/gh-actions/issues">
+      <img alt="Github Issues" src="https://flat.badgen.net/github/open-issues/andresmweber/gh-actions" />
+    </a>
+    <a href="https://github.com/AndresMWeber/gh-actions/blob/master/LICENSE.md">
+      <img alt="Github License"src="https://flat.badgen.net/github/license/andresmweber/gh-actions" />
+    </a>
+    <a href="http://makeapullrequest.com">
+      <img alt="PRs Welcome"  src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+    </a>
   </div>
 </p>
 
