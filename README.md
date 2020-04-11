@@ -11,8 +11,8 @@
   <h2 align="center">Maya Docker Testing</h5>
   <h5 align="center">How to run a python test suite using the GitHub Actions CI in a Maya Docker Container</h5>
   <div align="center">
-      <a href="https://github.com/AndresMWeber/gh-actions/actions" >
-          <img alt="Github CI" src="https://github.com/AndresMWeber/gh-actions/workflows/CI/badge.svg" />
+    <a href="https://github.com/AndresMWeber/gh-actions/actions" >
+        <img alt="Github CI" src="https://github.com/AndresMWeber/gh-actions/workflows/CI/badge.svg" />
     </a>
     <a href="https://github.com/AndresMWeber/gh-actions/releases">
       <img alt="Github Latest Release" src="https://flat.badgen.net/github/release/andresmweber/gh-actions" />
@@ -41,7 +41,7 @@
 ```
   maya_<version>_tests:
     runs-on: ubuntu-latest
-    name: Runs Maya 2017
+    name: Runs Maya <version>
     steps:
       - name: Checkout
         uses: actions/checkout@v2
