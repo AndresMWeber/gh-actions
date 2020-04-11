@@ -11,20 +11,20 @@
   <h2 align="center">Maya Docker Testing</h5>
   <h5 align="center">How to run a python test suite using the GitHub Actions CI in a Maya Docker Container</h5>
   <div align="center">
-    <a href="https://github.com/AndresMWeber/gh-actions/actions" >
-        <img alt="Github CI" src="https://github.com/AndresMWeber/gh-actions/workflows/CI/badge.svg" />
+    <a href="https://github.com/AndresMWeber/maya-docker-github-actions/actions" >
+        <img alt="Github CI" src="https://github.com/AndresMWeber/maya-docker-github-actions/workflows/CI/badge.svg" />
     </a>
-    <a href="https://github.com/AndresMWeber/gh-actions/releases">
-      <img alt="Github Latest Release" src="https://flat.badgen.net/github/release/andresmweber/gh-actions" />
+    <a href="https://github.com/AndresMWeber/maya-docker-github-actions/releases">
+      <img alt="Github Latest Release" src="https://flat.badgen.net/github/release/andresmweber/maya-docker-github-actions" />
     </a>
-    <a href="https://github.com/AndresMWeber/gh-actions/commits/master">
-      <img alt="Github Last Commit" src="https://flat.badgen.net/github/last-commit/andresmweber/gh-actions" />
+    <a href="https://github.com/AndresMWeber/maya-docker-github-actions/commits/master">
+      <img alt="Github Last Commit" src="https://flat.badgen.net/github/last-commit/andresmweber/maya-docker-github-actions" />
     </a>
-    <a href="https://github.com/andresmweber/gh-actions/issues">
-      <img alt="Github Issues" src="https://flat.badgen.net/github/open-issues/andresmweber/gh-actions" />
+    <a href="https://github.com/andresmweber/maya-docker-github-actions/issues">
+      <img alt="Github Issues" src="https://flat.badgen.net/github/open-issues/andresmweber/maya-docker-github-actions" />
     </a>
-    <a href="https://github.com/AndresMWeber/gh-actions/blob/master/LICENSE.md">
-      <img alt="Github License"src="https://flat.badgen.net/github/license/andresmweber/gh-actions" />
+    <a href="https://github.com/AndresMWeber/maya-docker-github-actions/blob/master/LICENSE.md">
+      <img alt="Github License"src="https://flat.badgen.net/github/license/andresmweber/maya-docker-github-actions" />
     </a>
     <a href="http://makeapullrequest.com">
       <img alt="PRs Welcome"  src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
